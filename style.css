@@ -31,8 +31,13 @@
     height: 100px;
 }
 
-.navbar p {
+.navbar p{
+    cursor: pointer;
+    
     font-weight: 700;
+}
+.navbar p:hover{
+    color: #006342;
 }
 
 .btn1 {
@@ -43,6 +48,7 @@
     border: 1px solid black;
     background-color: white;
     border-radius: 22px;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -55,6 +61,7 @@
     border: none;
     color: white;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .naav {
@@ -80,8 +87,12 @@
     border: 2px solid white;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
+     transition-duration: 0.4s;
 }
-
+.naav button:hover{
+    background-color: #006342;
+}
 .herosec1 {
     height: 370px;
     margin-top: 30px;
@@ -200,7 +211,7 @@
     font-size: 19px;
     color:#006342;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     line-height: 30px;
 }
 
@@ -211,7 +222,7 @@
     font-weight: 700;
     border-radius: 20px;
     border: none;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-left: 190px;
     background-color: #006342;
     color: #f5f1eb;
@@ -295,13 +306,109 @@
 
 .div10 button {
     height: 40px;
-    width: 260px;
+    width: 220px;
     font-size: 17px;
     font-weight: 700;
     border-radius: 20px;
     border: none;
-    margin-top: 35px;
-    margin-left: 190px;
+    margin-top: 25px;
+    margin-left: 210px;
     background-color: white;
     color: #006342;
+}
+
+.herosec6 {
+    height: 370px;
+    margin-top: 34px;
+    display: flex;
+}
+
+.div11 {
+    width: 630px;
+    background-color: #006342;
+}
+
+.div12{
+    width: 635px;
+    background-image: url("herosec6.webp");
+    background-size: cover;
+}
+
+.div11 h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div11 p {
+    font-size: 19px;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.div11 button {
+    height: 40px;
+    width: 140px;
+    margin-left: 245px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    background-color: #006342;
+    border: 1px solid white;
+}
+.hero7{
+    height: 130px;
+    border-bottom: 2px solid rgb(227, 224, 224);
+}
+.hero7 p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 70px;
+    line-height: 30px;
+}
+.listt{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+     border-bottom: 2px solid rgb(227, 224, 224);
+}
+.listt h3{
+    padding-top: 40px;
+    font-weight: 500;
+}
+.listt p{
+    padding-top: 25px;
+    color: rgb(101, 101, 101);
+}
+
+.foot1{
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.foot1 i{
+    font-size: 40px;
+    padding-left: 10px;
+}
+.foot2{
+    line-height: 40px;
+    margin-left: 44px;
+    margin-top: 30px;
+}
+.foot2 p{
+    font-weight: 500;
+}
+.lastp{
+    color: #737372;
+    margin-left: 44px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
