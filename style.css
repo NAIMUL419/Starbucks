@@ -4,11 +4,10 @@
     font-family: Helvetica, sans-serif;
 }
 
-.nav {}
 
 .navbar {
     display: flex;
-    height: 100px;
+    height: 90px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -83,34 +82,83 @@
     color: white;
 }
 
-.herosec{
+.herosec1 {
     height: 370px;
-    margin-top: 34px;
+    margin-top: 30px;
     display: flex;
 }
-.div1{
-    width: 650px;
+
+.div1 {
+    width: 630px;
     background-image: url("starhero.webp");
     background-size: cover;
 }
-.div2{
+
+.div2 {
     background-color: #006342;
-    width: 615px;
+    width: 635px;
 }
-.div2 h2{
+
+.div2 h2 {
     font-size: 24px;
     color: rgb(230, 228, 228);
     text-align: center;
     padding-top: 80px;
 }
-.div2 p{
-     font-size: 19px;
+
+.div2 p {
+    font-size: 19px;
     color: rgb(230, 226, 226);
     text-align: center;
     padding-top: 30px;
     line-height: 30px;
 }
-.div2 button{
+
+.div2 button {
+    height: 40px;
+    width: 140px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 244px;
+    color: #006342;
+}
+
+.herosec2 {
+    height: 370px;
+    margin-top: 34px;
+    display: flex;
+}
+
+.div3 {
+    width: 630px;
+    background-color: #f3cea1;;
+}
+
+.div4 {
+    width: 635px;
+    background-image: url("herosec2.webp");
+    background-size: cover;
+}
+
+.div3 h2 {
+    font-size: 24px;
+    color:#006342;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div3 p {
+    font-size: 19px;
+    color:#006342;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.div3 button {
     height: 40px;
     width: 140px;
     margin-left: 235px;
@@ -120,4 +168,140 @@
     border: none;
     color: #006342;
     margin-top: 40px;
+    background-color: #f3cea1;
+    border: 1px solid #006342;
+}
+
+.herosec3 {
+    height: 370px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.div5 {
+    width: 630px;
+    background-image: url("herosec3.webp");
+    background-size: cover;
+}
+
+.div6 {
+    background-color: #f5f1eb;
+    width: 635px;
+}
+
+.div6 h2 {
+    font-size: 24px;
+    color:#006342;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div6 p {
+    font-size: 19px;
+    color:#006342;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.div6 button {
+    height: 40px;
+    width: 260px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 190px;
+    background-color: #006342;
+    color: #f5f1eb;
+}
+.herosec4 {
+    height: 370px;
+    margin-top: 34px;
+    display: flex;
+}
+
+.div7 {
+    width: 630px;
+    background-color: #006342;
+}
+
+.div8 {
+    width: 635px;
+    background-image: url("herosec4.webp");
+    background-size: cover;
+}
+
+.div7 h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div7 p {
+    font-size: 19px;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.div7 button {
+    height: 40px;
+    width: 140px;
+    margin-left: 235px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    background-color: #006342;
+    border: 1px solid white;
+}
+.herosec5 {
+    height: 370px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.div9 {
+    width: 630px;
+    background-image: url("herosec5.webp");
+    background-size: cover;
+}
+
+.div10 {
+    background-color: #006342;
+    width: 635px;
+}
+
+.div10 h2 {
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div10 p {
+    font-size: 19px;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.div10 button {
+    height: 40px;
+    width: 260px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 190px;
+    background-color: white;
+    color: #006342;
 }
